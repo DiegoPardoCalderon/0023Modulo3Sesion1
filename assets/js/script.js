@@ -50,15 +50,18 @@ var inputRut = document.getElementById("txt-rut");
 var inputNombre = document.getElementById("txt-nombre");
 var inputSalarioHora = document.getElementById("txt-salario-hora");
 var inputHorasTrabajadas = document.getElementById("txt-horas-trabajadas");
+//getELementById la utilizamos para apuntar a un elemento con su ID.
 var checkActivo = document.getElementById("check-activo");
 
+// Definición de función con retorno para calcular salarios
 function calcularSalario(salarioHora, horasTrabajadas) {
     var salario = salarioHora * horasTrabajadas
     return salario
     
 }
-
+//Definición de función para agregar un colaborador al arreglo.
 function agregarColaborador(rut, nombre, salario, horas, activo){
+    //Función push incorpora un nuevo elemento al arreglo y lo ubica en la última posición
     colaboradores.push({
         rut: rut,
         nombre: nombre,
