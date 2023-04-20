@@ -46,10 +46,10 @@
 var colaboradores   = []
 
 //QuerySelector, lo utilizamos para apuntar a un elemento con selectores iguales a los de CSS
-var inputRut = document.getElementById("#txt-rut");
-var inputNombre = document.getElementById("#txt-nombre");
-var inputSalarioHora = document.getElementById("#txt-salario-hora");
-var inputHorasTrabajadas = document.getElementById("#txt-Horas-trabajadas");
+var inputRut = document.getElementById("txt-rut");
+var inputNombre = document.getElementById("txt-nombre");
+var inputSalarioHora = document.getElementById("txt-salario-hora");
+var inputHorasTrabajadas = document.getElementById("txt-horas-trabajadas");
 var checkActivo = document.getElementById("check-activo");
 
 function calcularSalario(salarioHora, horasTrabajadas) {
